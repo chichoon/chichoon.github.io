@@ -45,7 +45,6 @@ function getWeather(lat, long){ //위도와 경도를 이용하여 실질적으�
                 case "50n": iconDescription = "misty night"; break;
             }
             weather.innerHTML = `</br>Today is ${iconDescription}! </br>${temperature}˚C in ${place}`;
-            console.log(json);
         })
 }
 
