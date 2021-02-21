@@ -1,10 +1,13 @@
 body {
+    text-align: center;
     background-color: #293133;
     color: #ffffff;
 }
 
 .form,
 .greetings {
+    font-size: 30px;
+    text-shadow: 0px 0px 2px black;
     display: none;
 }
 
@@ -30,4 +33,28 @@ body {
     z-index: -1;
     /*다른 요소들보다 뒤에 있도록 설정*/
     animation: fadeIn .5s linear;
+}
+
+.clock{
+    font-size: 50px;
+    font-style: italic;
+    font: "맑은 고딕";
+    text-align: center;
+    text-shadow: 0px 0px 10px white;
+    margin-top: -50px
+}
+
+.weather{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 0px 0px 2px black;
+}
+
+.weatherImg{
+    margin-top: -60px;
+}
+
+.toDoForm{
+    margin-top: 10px;
 }

@@ -3,6 +3,7 @@ const API_KEY = "1894bda620f9690a7ac4bc5908094b1c";
 //openWeatherMap API KEY
 
 const weather = document.querySelector(".js-weather");
+const weatherImg = document.querySelector(".js-weatherImg");
 
 function getWeather(lat, long){ //위도와 경도를 이용하여 실질적으로 날씨를 api로부터 가져오는 함수
     fetch(
@@ -19,7 +20,31 @@ function getWeather(lat, long){ //위도와 경도를 이용하여 실질적으�
             //한번 더 then 사용
             const temperature = json.main.temp;
             const place = json.name;
-            weather.innerText = `${temperature} @ ${place}`;
+            const iconID = json.weather[0].icon
+            let iconDescription = "";
+            weatherImg.src = `http://openweathermap.org/img/wn/${iconID}@2x.png`
+
+            switch(iconID){
+                case "01d": iconDescription = "clear day"; break;
+                case "01n": iconDescription = "clear night"; break;
+                case "02d": iconDescription = "day with few clouds"; break;
+                case "02n": iconDescription = "night with few clouds"; break;
+                case "03d": iconDescription = "day with scattered clouds"; break;
+                case "03n": iconDescription = "night with scattered clouds"; break;
+                case "04d": iconDescription = "day with broken clouds"; break;
+                case "04n": iconDescription = "night with broken clouds"; break;
+                case "09d": iconDescription = "rainy day"; break;
+                case "09n": iconDescription = "rainy night"; break;
+                case "10d": iconDescription = "rainy day"; break;
+                case "10n": iconDescription = "rainy night"; break;
+                case "11d": iconDescription = "day with thunderstorm"; break;
+                case "11n": iconDescription = "night with thunderstorm"; break;
+                case "13d": iconDescription = "snowy day"; break;
+                case "13n": iconDescription = "snowy night"; break;
+                case "50d": iconDescription = "misty day"; break;
+                case "50n": iconDescription = "misty night"; break;
+            }
+            weather.innerHTML = `</br>Today is ${iconDescription}! </br>${temperature}˚C in ${place}`;
             console.log(json);
         })
 }

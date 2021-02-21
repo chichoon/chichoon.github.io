@@ -1,6 +1,6 @@
 const clockContainer = document.querySelector(".js-clock");
 //class명 : js-clock 찾기
-const clockTitle = clockContainer.querySelector("h1");
+const clockTitle = clockContainer.querySelector("h2");
 //js-clock 내의 h1 요소 찾기
 //한번에 선언할 땐 const 요소1 = 대입1, 요소2 = 대입2 이렇게 해도됨
 
