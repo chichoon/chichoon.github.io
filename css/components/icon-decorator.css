@@ -1,0 +1,71 @@
+.main-icon {
+  width: 150px;
+  height: 150px;
+  border: 2px solid var(--gray);
+  border-radius: 20px;
+  position: relative;
+  filter: drop-shadow(0 0 0.2rem white);
+}
+
+.main-icon > i,
+.main-icon > div,
+.main-icon > span {
+  position: absolute;
+}
+
+@keyframes starLight {
+  0% {
+    opacity: 1;
+    transform: none;
+  }
+  20% {
+    opacity: 0;
+    transform: rotatez(180deg);
+  }
+  40% {
+    opacity: 1;
+    transform: rotatez(360deg);
+  }
+  100% {
+    opacity: 1;
+    transform: rotatez(360deg);
+  }
+}
+
+.icon__star1 {
+  bottom: 30px;
+  left: 10px;
+}
+
+.icon__star2 {
+  top: 10px;
+  right: 50px;
+}
+
+.icon__star3 {
+  bottom: 20px;
+  right: 30px;
+}
+
+.icon__line1 {
+  width: 2px;
+  height: 40px;
+  background-color: var(--gray);
+  transform: rotatez(30deg);
+  top: 43px;
+  left: 60px;
+}
+
+.icon__line2 {
+  width: 2px;
+  height: 40px;
+  background-color: var(--gray);
+  transform: rotatez(110deg);
+  bottom: 18px;
+  right: 74px;
+}
+
+.icon__text {
+  bottom: 50px;
+  right: 10px;
+}

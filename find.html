@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find</title>
+    <link rel="stylesheet" href="css/styles.css" class="css" />
+    <style>
+      .nav__link .fa-user,
+      .nav__link .fa-comment,
+      .nav__link .fa-ellipsis-h {
+        opacity: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>90%</span>
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Find</h1>
+      <div class="screen-header__icons">
+        <a href="https://www.google.com/" target="_blank">
+          <span><i class="fas fa-search fa-lg"></i></span>
+        </a>
+        <a href="settings.html">
+          <span><i class="fas fa-cog fa-lg"></i></span>
+          <span class="badge badge__top"></span>
+        </a>
+      </div>
+    </header>
+
+    <main class="find-screen">
+      <div class="icon-row">
+        <div class="icon-row__icon">
+          <i class="fas fa-qrcode fa-2x"></i>
+          <span>QR Code</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="far fa-address-book fa-2x"></i>
+          <span>Add by Contacts</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-fingerprint fa-2x"></i>
+          <span>Add by ID</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="far fa-envelope fa-2x"></i>
+          <span>Invite</span>
+        </div>
+      </div>
+      <div class="recommended-friends">
+        <span class="recommended-friends__text">Recommended Friends</span>
+        <div class="recommended-friends__container">
+          <div class="user-component">
+            <div class="user-component__column">
+              <img
+                class="user-component__avatar user-component__avatar--sm"
+                src="res/rec1.png"
+              />
+              <div class="user-component__text">
+                <h4 class="user-component__name">Mu</h4>
+                <h5 class="user-component__subtitle"></h5>
+              </div>
+            </div>
+            <div class="user-component__column">
+              <i class="fas fa-user-plus"></i>
+            </div>
+          </div>
+          <div class="user-component">
+            <div class="user-component__column">
+              <img
+                class="user-component__avatar user-component__avatar--sm"
+                src="res/rec2.gif"
+              />
+              <div class="user-component__text">
+                <h4 class="user-component__name">MintChoco</h4>
+                <h5 class="user-component__subtitle"></h5>
+              </div>
+            </div>
+            <div class="user-component__column">
+              <i class="fas fa-user-plus"></i>
+            </div>
+          </div>
+          <div class="user-component">
+            <div class="user-component__column">
+              <img
+                class="user-component__avatar user-component__avatar--sm"
+                src="res/rec3.png"
+              />
+              <div class="user-component__text">
+                <h4 class="user-component__name">Crewmate</h4>
+                <h5 class="user-component__subtitle"></h5>
+              </div>
+            </div>
+            <div class="user-component__column">
+              <i class="fas fa-user-plus"></i>
+            </div>
+          </div>
+          <div class="user-component">
+            <div class="user-component__column">
+              <img
+                class="user-component__avatar user-component__avatar--sm"
+                src="res/rec4.png"
+              />
+              <div class="user-component__text">
+                <h4 class="user-component__name">Cyndaquil</h4>
+                <h5 class="user-component__subtitle"></h5>
+              </div>
+            </div>
+            <div class="user-component__column">
+              <i class="fas fa-user-plus"></i>
+            </div>
+          </div>
+          <div class="user-component">
+            <div class="user-component__column">
+              <img
+                class="user-component__avatar user-component__avatar--sm"
+                src="res/rec5.png"
+              />
+              <div class="user-component__text">
+                <h4 class="user-component__name">Rowlet</h4>
+                <h5 class="user-component__subtitle"></h5>
+              </div>
+            </div>
+            <div class="user-component__column">
+              <i class="fas fa-user-plus"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="open-chat">
+        <div class="open-chat__header">
+          <h4>Open Chats</h4>
+          <span>
+            Go to OpenChat Home <i class="fas fa-chevron-right fa-xs"></i>
+          </span>
+        </div>
+        <div class="open-post">
+          <div class="open-post__column">
+            <h5 class="open-post__title">#haha ha</h5>
+            <h6 class="open-post__hashtags">#cat#samsaek#yattong#gilmak</h6>
+            <div class="open-post__members">
+              <img src="res/prof5.png" />
+              <span class="open-post__member-count"> 2,359 members </span>
+              <div class="divider"></div>
+              <span class="open-post__member-status">Active</span>
+            </div>
+          </div>
+          <div class="open-post__column">
+            <div class="open-post__photo">
+              <img src="res/open1.jpg" />
+              <div class="open-post__heart-count">
+                <i class="fas fa-heart fa-xs"></i>
+                <span>960</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="open-post">
+          <div class="open-post__column">
+            <h5 class="open-post__title">#rainworld</h5>
+            <h6 class="open-post__hashtags">#indie#platformer#survival</h6>
+            <div class="open-post__members">
+              <img src="res/prof1.png" />
+              <span class="open-post__member-count"> 705 members </span>
+              <div class="divider"></div>
+              <span class="open-post__member-status">Active</span>
+            </div>
+          </div>
+          <div class="open-post__column">
+            <div class="open-post__photo">
+              <img src="res/open2.png" />
+              <div class="open-post__heart-count">
+                <i class="fas fa-heart fa-xs"></i>
+                <span>332</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends-no-intro.html"
+            ><i class="far fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notif badge">30</span>
+            <i class="far fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <span class="nav__notif badge"></span>
+            <i class="fas fa-ellipsis-h fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="no-mobile">
+      <div class="main-icon">
+        <i class="fas fa-star fa-3x icon__star1"></i>
+        <div class="icon__line1"></div>
+        <i class="far fa-star fa-2x icon__star2"></i>
+        <div class="icon__line2"></div>
+        <i class="far fa-star fa-lg icon__star3"></i>
+        <span class="icon__text">StarlighTalk</span>
+      </div>
+      <span>Your screen seems too big 🤔</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

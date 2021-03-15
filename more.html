@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>More</title>
+    <link rel="stylesheet" href="css/styles.css" class="css" />
+    <style>
+      .nav__link .fa-user,
+      .nav__link .fa-comment,
+      .nav__link .fa-search {
+        opacity: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>90%</span>
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">More</h1>
+      <div class="screen-header__icons">
+        <a href="https://www.google.com/" target="_blank">
+          <span><i class="fas fa-search fa-lg"></i></span>
+        </a>
+        <a href="https://music.youtube.com/" target="_blank">
+          <span><i class="fas fa-music fa-lg"></i></span>
+        </a>
+        <a href="settings.html">
+          <span><i class="fas fa-cog fa-lg"></i></span>
+          <span class="badge badge__top"></span>
+        </a>
+      </div>
+    </header>
+
+    <main class="more-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img class="user-component__avatar" src="res/prof1.png" />
+          <div class="user-component__text">
+            <h4 class="user-component__name">Chichoon</h4>
+            <h5 class="user-component__subtitle">
+              +82 010-1234-5678<i class="fas fa-exclamation-circle"></i>
+            </h5>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <i class="far fa-comment-alt fa-2x"></i>
+        </div>
+      </div>
+      <div class="icon-row">
+        <div class="icon-row__icon">
+          <i class="far fa-calendar-alt fa-2x"></i>
+          <span>Calendar</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-archive fa-2x"></i>
+          <span>Talk Drive</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="far fa-smile fa-2x"></i>
+          <span>Emoticons</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-paint-brush fa-2x"></i>
+          <span>Themes</span>
+        </div>
+      </div>
+      <div class="icon-row">
+        <div class="icon-row__icon">
+          <i class="far fa-user-circle fa-2x"></i>
+          <span>Account</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="far fa-comments fa-2x"></i>
+          <span>Open Chat</span>
+        </div>
+        <div class="icon-row__icon opacity--0">
+          <i class="far fa-user-circle fa-2x"></i>
+          <span>Emoticons</span>
+        </div>
+        <div class="icon-row__icon opacity--0">
+          <i class="fas fa-paint-brush fa-2x"></i>
+          <span>Themes</span>
+        </div>
+      </div>
+      <div class="more-suggestions">
+        <h4 class="more-suggestions__title">Suggestions</h4>
+        <div class="icon-row">
+          <a href="https://github.com/" target="_blank">
+            <div class="icon-row__icon">
+              <img src="res/more1.png" />
+              <span>Github</span>
+            </div>
+          </a>
+          <a href="https://golang.org/" target="_blank">
+            <div class="icon-row__icon">
+              <img src="res/more2.png" />
+              <span>Go</span>
+            </div>
+          </a>
+          <div class="icon-row__icon">
+            <img src="res/more3.png" />
+            <span>meow</span>
+          </div>
+          <div class="icon-row__icon opacity--0">
+            <i class="fas fa-paint-brush fa-2x"></i>
+            <span>Themes</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends-no-intro.html"
+            ><i class="far fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notif badge">30</span>
+            <i class="far fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <span class="nav__notif badge"></span>
+            <i class="fas fa-ellipsis-h fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="no-mobile">
+      <div class="main-icon">
+        <i class="fas fa-star fa-3x icon__star1"></i>
+        <div class="icon__line1"></div>
+        <i class="far fa-star fa-2x icon__star2"></i>
+        <div class="icon__line2"></div>
+        <i class="far fa-star fa-lg icon__star3"></i>
+        <span class="icon__text">StarlighTalk</span>
+      </div>
+      <span>Your screen seems too big 🤔</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

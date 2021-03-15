@@ -1,0 +1,36 @@
+/*최상단에서 폰트 불러오기*/
+@import url("https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@500;700&display=swap");
+
+/*먼저 reset하고, 변수설정을 해줘야 나중에 쓸 수 있음*/
+@import "reset.css";
+@import "variables.css";
+
+/*components*/
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/badge.css";
+@import "components/icon-row.css";
+@import "components/alt-screen-header.css";
+@import "components/icon-decorator.css";
+@import "components/no-mobile.css";
+
+/* screens */
+@import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/chats.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chatting.css";
+
+/*각 디자인 별 css를 따로 분리해놓고 styles에서 불러오는 것이 깔끔하다*/
+body {
+  font-family: "Saira Condensed", sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to bottom, black, rgb(52, 81, 124));
+  color: var(--gray);
+}

@@ -1,0 +1,21 @@
+.badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(190, 247, 255);
+  color: rgb(22, 57, 73);
+  font-weight: 700;
+  z-index: 15;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.badge__top {
+  display: block;
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: -10px;
+  right: -5px;
+}

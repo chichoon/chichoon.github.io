@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat-TarkovMan</title>
+    <link rel="stylesheet" href="../css/styles.css" class="css" />
+    <style>
+      .nav__link .fa-user,
+      .nav__link .fa-comment,
+      .nav__link .fa-search {
+        opacity: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>90%</span>
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alternative-header">
+      <div class="alt-header__column">
+        <i class="fas fa-angle-left fa-2x" onClick="history.go(-1)"></i>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">TarkovMan</h1>
+      </div>
+      <div class="alt-header__column">
+        <i class="fas fa-ellipsis-v fa-lg"></i>
+      </div>
+    </header>
+
+    <main class="chatting-screen">
+      <div id="main-chat">
+        <div class="chat__timestamp">Sunday, Mar 14 2021</div>
+        <div class="message-row">
+          <img src="../res/prof5.png" />
+          <div class="message-row__content">
+            <div class="message__author">TarkovMan</div>
+            <div class="message__info">
+              <span class="message__bubble">
+                going school now
+                <i class="fas fa-star bubble__star"></i>
+              </span>
+              <span class="message__time">11:45</span>
+            </div>
+          </div>
+        </div>
+        <div class="message-row">
+          <img src="../res/prof5.png" />
+          <div class="message-row__content">
+            <div class="message__author">TarkovMan</div>
+            <div class="message__info">
+              <span class="message__bubble">
+                so sleepy
+                <i class="fas fa-star bubble__star"></i>
+              </span>
+              <span class="message__time">11:46</span>
+            </div>
+          </div>
+        </div>
+        <div class="message-row">
+          <img src="../res/prof5.png" />
+          <div class="message-row__content">
+            <div class="message__author">TarkovMan</div>
+            <div class="message__info">
+              <span class="message__bubble">
+                dense fine dust today
+                <i class="fas fa-star bubble__star"></i>
+              </span>
+              <span class="message__time">11:46</span>
+            </div>
+          </div>
+        </div>
+        <div class="message-row">
+          <img src="../res/prof5.png" />
+          <div class="message-row__content">
+            <div class="message__author">TarkovMan</div>
+            <div class="message__info">
+              <span class="message__bubble">
+                yuk
+                <i class="fas fa-star bubble__star"></i>
+              </span>
+              <span class="message__time">11:47</span>
+            </div>
+          </div>
+        </div>
+        <div class="message-row message-row--own">
+          <div class="message-row__content">
+            <div class="message__info">
+              <span class="message__bubble">
+                are u gonna work overnight today?
+                <i class="fas fa-star bubble__star1"></i>
+                <i class="fas fa-star bubble__star2"></i>
+              </span>
+              <span class="message__time">12:23</span>
+            </div>
+          </div>
+        </div>
+        <div class="message-row message-row--own">
+          <div class="message-row__content">
+            <div class="message__info">
+              <span class="message__bubble">
+                <a
+                  href="https://i.ytimg.com/vi/_gaRdpuS_V8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDfFgGqYEAXxAXLJ5X-82dzpBe7lA"
+                  target="_blank"
+                >
+                  <img src="../res/chat4.png" />
+                </a>
+                <i class="fas fa-star bubble__star1"></i>
+                <i class="fas fa-star bubble__star2"></i>
+              </span>
+              <span class="message__time">12:25</span>
+            </div>
+          </div>
+        </div>
+        <div class="message-row message-row--own">
+          <div class="message-row__content">
+            <div class="message__info">
+              <span class="message__bubble">
+                watch this and u'll feel better
+                <i class="fas fa-star bubble__star1"></i>
+                <i class="fas fa-star bubble__star2"></i>
+              </span>
+              <span class="message__time">12:25</span>
+            </div>
+          </div>
+        </div>
+        <div class="message-row message-row--own">
+          <div class="message-row__content">
+            <div class="message__info">
+              <span class="message__bubble">
+                <img src="../res/chat5.jpg" />
+                <i class="fas fa-star bubble__star1"></i>
+                <i class="fas fa-star bubble__star2"></i>
+              </span>
+              <span class="message__time">12:26</span>
+            </div>
+          </div>
+        </div>
+        <div class="message-row message-row--own">
+          <div class="message-row__content">
+            <div class="message__info">
+              <span class="message__bubble">
+                <img src="../res/chat6.jpg" />
+                <i class="fas fa-star bubble__star1"></i>
+                <i class="fas fa-star bubble__star2"></i>
+              </span>
+              <span class="message__time">12:27</span>
+            </div>
+          </div>
+        </div>
+        <div class="message-row message-row--own">
+          <div class="message-row__content">
+            <div class="message__info">
+              <span class="message__bubble">
+                <img src="../res/chat7.jpg" />
+                <i class="fas fa-star bubble__star1"></i>
+                <i class="fas fa-star bubble__star2"></i>
+              </span>
+              <span class="message__time">12:27</span>
+            </div>
+          </div>
+        </div>
+        <div class="message-row message-row--own">
+          <div class="message-row__content">
+            <div class="message__info">
+              <span class="message__bubble">
+                and more cats
+                <i class="fas fa-star bubble__star1"></i>
+                <i class="fas fa-star bubble__star2"></i>
+              </span>
+              <span class="message__time">12:28</span>
+            </div>
+          </div>
+        </div>
+        <div class="message-row">
+          <img src="../res/prof5.png" />
+          <div class="message-row__content">
+            <div class="message__author">TarkovMan</div>
+            <div class="message__info">
+              <span class="message__bubble">
+                thx
+                <i class="fas fa-star bubble__star"></i>
+              </span>
+              <span class="message__time">14:52</span>
+            </div>
+          </div>
+        </div>
+        <div class="message-row">
+          <img src="../res/prof5.png" />
+          <div class="message-row__content">
+            <div class="message__author">TarkovMan</div>
+            <div class="message__info">
+              <span class="message__bubble">
+                whoa works all finished
+                <i class="fas fa-star bubble__star"></i>
+              </span>
+              <span class="message__time">20:35</span>
+            </div>
+          </div>
+        </div>
+        <div class="message-row">
+          <img src="../res/prof5.png" />
+          <div class="message-row__content">
+            <div class="message__author">TarkovMan</div>
+            <div class="message__info">
+              <span class="message__bubble">
+                gonna play game after home-exercise
+                <i class="fas fa-star bubble__star"></i>
+              </span>
+              <span class="message__time">20:36</span>
+            </div>
+          </div>
+        </div>
+        <div class="message-row">
+          <img src="../res/prof5.png" />
+          <div class="message-row__content">
+            <div class="message__author">TarkovMan</div>
+            <div class="message__info">
+              <span class="message__bubble">
+                and it will be tarkov lol
+                <i class="fas fa-star bubble__star"></i>
+              </span>
+              <span class="message__time">20:36</span>
+            </div>
+          </div>
+        </div>
+        <div class="message-row">
+          <img src="../res/prof5.png" />
+          <div class="message-row__content">
+            <div class="message__author">TarkovMan</div>
+            <div class="message__info">
+              <span class="message__bubble">
+                <a
+                  href="https://www.youtube.com/watch?v=JLkF5hHCjN4"
+                  target="_blank"
+                >
+                  <img src="../res/chat8.png" />
+                </a>
+                <i class="fas fa-star bubble__star"></i>
+              </span>
+              <span class="message__time">20:55</span>
+            </div>
+          </div>
+        </div>
+        <div class="message-row">
+          <img src="../res/prof5.png" />
+          <div class="message-row__content">
+            <div class="message__author">TarkovMan</div>
+            <div class="message__info">
+              <span class="message__bubble">
+                lol you watched this?
+                <i class="fas fa-star bubble__star"></i>
+              </span>
+              <span class="message__time">20:56</span>
+            </div>
+          </div>
+        </div>
+        <div class="message-row">
+          <img src="../res/prof5.png" />
+          <div class="message-row__content">
+            <div class="message__author">TarkovMan</div>
+            <div class="message__info">
+              <span class="message__bubble">
+                cat's moving castle
+                <i class="fas fa-star bubble__star"></i>
+              </span>
+              <span class="message__time">20:56</span>
+            </div>
+          </div>
+        </div>
+        <div class="chat__timestamp">Monday, Mar 15 2021</div>
+        <div class="message-row">
+          <img src="../res/prof5.png" />
+          <div class="message-row__content">
+            <div class="message__author">TarkovMan</div>
+            <div class="message__info">
+              <span class="message__bubble">
+                work today
+                <i class="fas fa-star bubble__star"></i>
+              </span>
+              <span class="message__time">11:38</span>
+            </div>
+          </div>
+        </div>
+        <div class="message-row">
+          <img src="../res/prof5.png" />
+          <div class="message-row__content">
+            <div class="message__author">TarkovMan</div>
+            <div class="message__info">
+              <span class="message__bubble">
+                by the way
+                <i class="fas fa-star bubble__star"></i>
+              </span>
+              <span class="message__time">11:38</span>
+            </div>
+          </div>
+        </div>
+        <div class="message-row">
+          <img src="../res/prof5.png" />
+          <div class="message-row__content">
+            <div class="message__author">TarkovMan</div>
+            <div class="message__info">
+              <span class="message__bubble">
+                you did your exercise yesterday right?
+                <i class="fas fa-star bubble__star"></i>
+              </span>
+              <span class="message__time">11:39</span>
+            </div>
+          </div>
+        </div>
+        <div class="message-row">
+          <img src="../res/prof5.png" />
+          <div class="message-row__content">
+            <div class="message__author">TarkovMan</div>
+            <div class="message__info">
+              <span class="message__bubble">
+                don't even try to lie on me 🔥🔥🔥🔥🔥
+                <i class="fas fa-star bubble__star"></i>
+              </span>
+              <span class="message__time">11:40</span>
+            </div>
+          </div>
+        </div>
+        <div class="message-row">
+          <img src="../res/prof5.png" />
+          <div class="message-row__content">
+            <div class="message__author">TarkovMan</div>
+            <div class="message__info">
+              <span class="message__bubble">
+                <img src="../res/chat9.gif" />
+                <i class="fas fa-star bubble__star"></i>
+              </span>
+              <span class="message__time">11:42</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="far fa-smile-wink"></i>
+        <button><i class="fas fa-arrow-up"></i></button>
+      </div>
+    </form>
+
+    <div id="no-mobile">
+      <div class="main-icon">
+        <i class="fas fa-star fa-3x icon__star1"></i>
+        <div class="icon__line1"></div>
+        <i class="far fa-star fa-2x icon__star2"></i>
+        <div class="icon__line2"></div>
+        <i class="far fa-star fa-lg icon__star3"></i>
+        <span class="icon__text">StarlighTalk</span>
+      </div>
+      <span>Your screen seems too big 🤔</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

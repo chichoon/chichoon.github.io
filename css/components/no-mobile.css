@@ -1,0 +1,32 @@
+#no-mobile {
+  background: linear-gradient(to bottom, black, rgb(52, 81, 124));
+  position: absolute;
+  box-sizing: border-box;
+  z-index: 99;
+  height: 100vh;
+  width: 100vw;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#no-mobile > span {
+  margin-top: 10px;
+  font-size: 28px;
+}
+
+@media screen and (min-width: 700px) {
+  #no-mobile {
+    display: flex;
+  }
+  #no-mobile i {
+    animation: starLight 4s ease-in-out infinite;
+  }
+  #no-mobile .icon__star2 {
+    animation-delay: 0.8s;
+  }
+  #no-mobile .icon__star3 {
+    animation-delay: 1.6s;
+  }
+}

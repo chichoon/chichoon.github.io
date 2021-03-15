@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat-Samsaek</title>
+    <link rel="stylesheet" href="../css/styles.css" class="css" />
+    <style>
+      .nav__link .fa-user,
+      .nav__link .fa-comment,
+      .nav__link .fa-search {
+        opacity: 50%;
+      }
+    </style>
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>90%</span>
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alternative-header">
+      <div class="alt-header__column">
+        <i class="fas fa-angle-left fa-2x" onClick="history.go(-1)"></i>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Samsaek</h1>
+      </div>
+      <div class="alt-header__column">
+        <i class="fas fa-search fa-lg"></i>
+        <i class="fas fa-bars fa-lg"></i>
+      </div>
+    </header>
+
+    <main class="chatting-screen">
+      <div id="main-chat">
+        <div class="chat__timestamp">Sunday, Mar 14 2021</div>
+        <div class="message-row">
+          <img src="../res/prof3.png" />
+          <div class="message-row__content">
+            <div class="message__author">Samsaek</div>
+            <div class="message__info">
+              <span class="message__bubble">
+                New photo of mine 😺 meow
+                <i class="fas fa-star bubble__star"></i>
+              </span>
+              <span class="message__time">20:36</span>
+            </div>
+          </div>
+        </div>
+        <div class="message-row">
+          <img src="../res/prof3.png" />
+          <div class="message-row__content">
+            <div class="message__author">Samsaek</div>
+            <div class="message__info">
+              <span class="message__bubble">
+                <img src="../res/chat2.png" />
+                <i class="fas fa-star bubble__star"></i>
+              </span>
+              <span class="message__time">20:36</span>
+            </div>
+          </div>
+        </div>
+        <div class="message-row message-row--own">
+          <div class="message-row__content">
+            <div class="message__info">
+              <span class="message__bubble">
+                haha I love it 😚
+                <i class="fas fa-star bubble__star1"></i>
+                <i class="fas fa-star bubble__star2"></i>
+              </span>
+              <span class="message__time">21:50</span>
+            </div>
+          </div>
+        </div>
+        <div class="chat__timestamp">Monday, Mar 15 2021</div>
+        <div class="message-row">
+          <img src="../res/prof3.png" />
+          <div class="message-row__content">
+            <div class="message__author">Samsaek</div>
+            <div class="message__info">
+              <span class="message__bubble">
+                <a
+                  href="https://www.youtube.com/watch?v=JLkF5hHCjN4"
+                  target="_blank"
+                >
+                  <img src="../res/chat1.png"
+                /></a>
+                <i class="fas fa-star bubble__star"></i>
+              </span>
+              <span class="message__time">16:14</span>
+            </div>
+          </div>
+        </div>
+        <div class="message-row">
+          <img src="../res/prof3.png" />
+          <div class="message-row__content">
+            <div class="message__author">Samsaek</div>
+            <div class="message__info">
+              <span class="message__bubble">
+                Hey!
+                <i class="fas fa-star bubble__star"></i>
+              </span>
+              <span class="message__time">16:14</span>
+            </div>
+          </div>
+        </div>
+        <div class="message-row">
+          <img src="../res/prof3.png" />
+          <div class="message-row__content">
+            <div class="message__author">Samsaek</div>
+            <div class="message__info">
+              <span class="message__bubble">
+                Check for my new Youtube Update!
+                <i class="fas fa-star bubble__star"></i>
+              </span>
+              <span class="message__time">16:15</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="far fa-smile-wink"></i>
+        <button><i class="fas fa-arrow-up"></i></button>
+      </div>
+    </form>
+
+    <div id="no-mobile">
+      <div class="main-icon">
+        <i class="fas fa-star fa-3x icon__star1"></i>
+        <div class="icon__line1"></div>
+        <i class="far fa-star fa-2x icon__star2"></i>
+        <div class="icon__line2"></div>
+        <i class="far fa-star fa-lg icon__star3"></i>
+        <span class="icon__text">StarlighTalk</span>
+      </div>
+      <span>Your screen seems too big 🤔</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

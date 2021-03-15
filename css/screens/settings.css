@@ -1,0 +1,51 @@
+.settings-screen {
+  box-sizing: border-box;
+  height: 100%;
+  padding: 0px var(--horizontal-space);
+  padding-top: -5px;
+  overflow-y: scroll;
+}
+
+.settings-screen::-webkit-scrollbar {
+  opacity: 0%;
+  width: 10px;
+}
+
+.settings-screen::-webkit-scrollbar-thumb {
+  background-color: var(--gray);
+  border-radius: 5px;
+}
+
+.settings__setting {
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.settings__setting:hover {
+  cursor: pointer;
+}
+
+.settings__setting-column {
+  display: flex;
+  align-items: center;
+}
+
+.settings__setting-column i {
+  margin-right: 10px;
+  font-size: 22px;
+}
+
+.settings__setting-column:last-child {
+  color: var(--low-opacity);
+}
+
+.settings__setting-column:first-child .badge {
+  width: 20px;
+  height: 20px;
+  font-size: 15px;
+  margin-left: 5px;
+}

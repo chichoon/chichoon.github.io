@@ -1,0 +1,116 @@
+.user-component {
+  justify-content: space-between;
+}
+
+.user-component:hover {
+  cursor: pointer;
+  margin: 2px 0px 0px 2px;
+  box-shadow: 0px -2px 3px 1px rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.user-component:not(:hover) {
+  background-color: transparent;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.user-component,
+.user-component__column:first-child {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  padding: 5px 0px;
+}
+
+.user-component__column:first-child {
+  width: 80%;
+}
+
+.user-component__column:last-child {
+  color: var(--low-opacity);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.user-component__avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
+  margin-right: 20px;
+  border: 2px solid white;
+  background-color: white;
+  filter: drop-shadow(0 0 0.3rem rgba(255, 255, 255, 0.4));
+}
+
+.user-component__avatar--xl {
+  width: 80px;
+  height: 80px;
+}
+
+.user-component__avatar--sm {
+  width: 60px;
+  height: 60px;
+}
+
+.user-component__name {
+  font-weight: 700;
+  font-size: 22px;
+  max-width: 30vw;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  word-wrap: none;
+  filter: drop-shadow(0 0 0.5rem rgba(255, 255, 255, 0.3));
+}
+
+.user-component__name--not-bold {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.user-component__subtitle {
+  margin-top: 7px;
+  font-size: 14px;
+  opacity: 70%;
+  max-width: 40vw;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  word-wrap: none;
+  filter: drop-shadow(0 0 0.3rem rgba(255, 255, 255, 0.3));
+}
+
+.user-component__music {
+  max-width: 20vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid lightgreen;
+  border-radius: 30px;
+  padding: 5px 15px;
+  filter: drop-shadow(0 0 0.3rem rgba(144, 238, 144, 0.5));
+}
+
+.user-component__music-title {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  word-wrap: none;
+  margin-right: 10px;
+  filter: drop-shadow(0 0 0.3rem rgba(255, 255, 255, 0.3));
+}
+
+.user-component__music i {
+  color: lightgreen;
+}
+
+.user-component__time {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--low-opacity);
+  font-size: 18px;
+  filter: drop-shadow(0 0 0.3rem rgba(255, 255, 255, 0.3));
+}

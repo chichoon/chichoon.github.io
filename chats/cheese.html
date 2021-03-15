@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat-Cheese</title>
+    <link rel="stylesheet" href="../css/styles.css" class="css" />
+    <style>
+      .nav__link .fa-user,
+      .nav__link .fa-comment,
+      .nav__link .fa-search {
+        opacity: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>90%</span>
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alternative-header">
+      <div class="alt-header__column">
+        <i class="fas fa-angle-left fa-2x" onClick="history.go(-1)"></i>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Cheese</h1>
+      </div>
+      <div class="alt-header__column">
+        <i class="fas fa-ellipsis-v fa-lg"></i>
+      </div>
+    </header>
+
+    <main class="chatting-screen">
+      <div id="main-chat">
+        <div class="chat__timestamp">Thursday, Mar 4 2021</div>
+        <div class="message-row">
+          <img src="../res/prof10.png" />
+          <div class="message-row__content">
+            <div class="message__author">Cheese</div>
+            <div class="message__info">
+              <span class="message__bubble">
+                Have you seen my jingle-bell-toy?
+                <i class="fas fa-star bubble__star"></i>
+              </span>
+              <span class="message__time">20:39</span>
+            </div>
+          </div>
+        </div>
+        <div class="message-row message-row--own">
+          <div class="message-row__content">
+            <div class="message__info">
+              <span class="message__bubble">
+                nope i haven't seen on my routine
+                <i class="fas fa-star bubble__star1"></i>
+                <i class="fas fa-star bubble__star2"></i>
+              </span>
+              <span class="message__time">21:02</span>
+            </div>
+          </div>
+        </div>
+        <div class="message-row">
+          <img src="../res/prof10.png" />
+          <div class="message-row__content">
+            <div class="message__author">Cheese</div>
+            <div class="message__info">
+              <span class="message__bubble">
+                Ok
+                <i class="fas fa-star bubble__star"></i>
+              </span>
+              <span class="message__time">21:13</span>
+            </div>
+          </div>
+        </div>
+        <div class="chat__timestamp">Friday, Mar 5 2021</div>
+        <div class="message-row message-row--own">
+          <div class="message-row__content">
+            <div class="message__info">
+              <span class="message__bubble">
+                hope you found it
+                <i class="fas fa-star bubble__star1"></i>
+                <i class="fas fa-star bubble__star2"></i>
+              </span>
+              <span class="message__time">09:48</span>
+            </div>
+          </div>
+        </div>
+        <div class="message-row">
+          <img src="../res/prof10.png" />
+          <div class="message-row__content">
+            <div class="message__author">Cheese</div>
+            <div class="message__info">
+              <span class="message__bubble">
+                It's gone...
+                <i class="fas fa-star bubble__star"></i>
+              </span>
+              <span class="message__time">13:26</span>
+            </div>
+          </div>
+        </div>
+        <div class="message-row message-row--own">
+          <div class="message-row__content">
+            <div class="message__info">
+              <span class="message__bubble">
+                oh
+                <i class="fas fa-star bubble__star1"></i>
+                <i class="fas fa-star bubble__star2"></i>
+              </span>
+              <span class="message__time">13:43</span>
+            </div>
+          </div>
+        </div>
+        <div class="message-row message-row--own">
+          <div class="message-row__content">
+            <div class="message__info">
+              <span class="message__bubble">
+                <img src="../res/chat11.png" />
+                <i class="fas fa-star bubble__star1"></i>
+                <i class="fas fa-star bubble__star2"></i>
+              </span>
+              <span class="message__time">13:43</span>
+            </div>
+          </div>
+        </div>
+        <div class="message-row message-row--own">
+          <div class="message-row__content">
+            <div class="message__info">
+              <span class="message__bubble">
+                *sobs*
+                <i class="fas fa-star bubble__star1"></i>
+                <i class="fas fa-star bubble__star2"></i>
+              </span>
+              <span class="message__time">13:44</span>
+            </div>
+          </div>
+        </div>
+        <div class="message-row">
+          <img src="../res/prof10.png" />
+          <div class="message-row__content">
+            <div class="message__author">Cheese</div>
+            <div class="message__info">
+              <span class="message__bubble">
+                😭😭😭
+                <i class="fas fa-star bubble__star"></i>
+              </span>
+              <span class="message__time">14:52</span>
+            </div>
+          </div>
+        </div>
+        <div class="chat__timestamp">Sunday, Mar 14 2021</div>
+        <div class="message-row">
+          <img src="../res/prof10.png" />
+          <div class="message-row__content">
+            <div class="message__author">Cheese</div>
+            <div class="message__info">
+              <span class="message__bubble">
+                I got a new toy!
+                <i class="fas fa-star bubble__star"></i>
+              </span>
+              <span class="message__time">14:53</span>
+            </div>
+          </div>
+        </div>
+        <div class="message-row message-row--own">
+          <div class="message-row__content">
+            <div class="message__info">
+              <span class="message__bubble">
+                great! That sounds good
+                <i class="fas fa-star bubble__star1"></i>
+                <i class="fas fa-star bubble__star2"></i>
+              </span>
+              <span class="message__time">13:44</span>
+            </div>
+          </div>
+        </div>
+        <div class="message-row message-row--own">
+          <div class="message-row__content">
+            <div class="message__info">
+              <span class="message__bubble">
+                <img src="../res/chat12.png" />
+                <i class="fas fa-star bubble__star1"></i>
+                <i class="fas fa-star bubble__star2"></i>
+              </span>
+              <span class="message__time">13:44</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="far fa-smile-wink"></i>
+        <button><i class="fas fa-arrow-up"></i></button>
+      </div>
+    </form>
+
+    <div id="no-mobile">
+      <div class="main-icon">
+        <i class="fas fa-star fa-3x icon__star1"></i>
+        <div class="icon__line1"></div>
+        <i class="far fa-star fa-2x icon__star2"></i>
+        <div class="icon__line2"></div>
+        <i class="far fa-star fa-lg icon__star3"></i>
+        <span class="icon__text">StarlighTalk</span>
+      </div>
+      <span>Your screen seems too big 🤔</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat</title>
+    <link rel="stylesheet" href="css/styles.css" class="css" />
+    <style>
+      .nav__link .fa-user,
+      .nav__link .fa-search,
+      .nav__link .fa-ellipsis-h {
+        opacity: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>90%</span>
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Chats</h1>
+      <div class="screen-header__icons">
+        <a href="https://www.google.com/" target="_blank">
+          <span><i class="fas fa-search fa-lg"></i></span>
+        </a>
+        <span><i class="far fa-comment-dots fa-lg"></i></span>
+        <a href="https://music.youtube.com/" target="_blank">
+          <span><i class="fas fa-music fa-lg"></i></span>
+        </a>
+        <a href="settings.html">
+          <span><i class="fas fa-cog fa-lg"></i></span>
+          <span class="badge badge__top"></span>
+        </a>
+      </div>
+    </header>
+
+    <main class="chats-screen">
+      <div class="chats-screen__channel">
+        <div
+          class="user-component"
+          onclick="location.href='chats/samsaek.html'"
+        >
+          <div class="user-component__column">
+            <img class="user-component__avatar" src="res/prof3.png" />
+            <div class="user-component__text">
+              <h4 class="user-component__name">Samsaek</h4>
+              <h5 class="user-component__subtitle">
+                Check for my new Youtube Update!
+              </h5>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">16:15</span>
+            <span class="badge">3</span>
+          </div>
+        </div>
+        <div
+          class="user-component"
+          onclick="location.href='chats/yattong.html'"
+        >
+          <div class="user-component__column">
+            <img class="user-component__avatar" src="res/prof4.png" />
+            <div class="user-component__text">
+              <h4 class="user-component__name">Yattong</h4>
+              <h5 class="user-component__subtitle">😽😽😽😽😽</h5>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">13:37</span>
+            <span class="badge">12</span>
+          </div>
+        </div>
+        <div class="user-component" onclick="location.href='chats/tarkov.html'">
+          <div class="user-component__column">
+            <img class="user-component__avatar" src="res/prof5.png" />
+            <div class="user-component__text">
+              <h4 class="user-component__name">TarkovMan</h4>
+              <h5 class="user-component__subtitle">Sent an image</h5>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">11:42</span>
+            <span class="badge">12</span>
+          </div>
+        </div>
+        <div
+          class="user-component"
+          onclick="location.href='chats/slugcat.html'"
+        >
+          <div class="user-component__column">
+            <img class="user-component__avatar" src="res/prof7.gif" />
+            <div class="user-component__text">
+              <h4 class="user-component__name">Slugcat</h4>
+              <h5 class="user-component__subtitle">What Fates a Slugcat?</h5>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">12:14</span>
+            <span class="badge">1</span>
+          </div>
+        </div>
+        <div class="user-component" onclick="location.href='chats/mona.html'">
+          <div class="user-component__column">
+            <img class="user-component__avatar" src="res/prof8.gif" />
+            <div class="user-component__text">
+              <h4 class="user-component__name">Mona</h4>
+              <h5 class="user-component__subtitle">
+                You have a new Pull Request!
+              </h5>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">11:02</span>
+            <span class="badge">2</span>
+          </div>
+        </div>
+        <div class="user-component" onclick="location.href='chats/cheese.html'">
+          <div class="user-component__column">
+            <img class="user-component__avatar" src="res/prof10.png" />
+            <div class="user-component__text">
+              <h4 class="user-component__name">Cheese</h4>
+              <h5 class="user-component__subtitle">Sent an emoticon</h5>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">yesterday</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends-no-intro.html">
+            <i class="far fa-user fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notif badge">30</span>
+            <i class="fas fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html">
+            <i class="fas fa-search fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <span class="nav__notif badge"></span>
+            <i class="fas fa-ellipsis-h fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="no-mobile">
+      <div class="main-icon">
+        <i class="fas fa-star fa-3x icon__star1"></i>
+        <div class="icon__line1"></div>
+        <i class="far fa-star fa-2x icon__star2"></i>
+        <div class="icon__line2"></div>
+        <i class="far fa-star fa-lg icon__star3"></i>
+        <span class="icon__text">StarlighTalk</span>
+      </div>
+      <span>Your screen seems too big 🤔</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

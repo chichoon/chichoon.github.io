@@ -1,0 +1,18 @@
+.chats-screen {
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: scroll;
+  padding: 0px var(--horizontal-space);
+  padding-top: -5px;
+}
+
+.chats-screen::-webkit-scrollbar {
+  opacity: 0%;
+  width: 10px;
+}
+
+.chats-screen::-webkit-scrollbar-thumb {
+  background-color: var(--gray);
+  border-radius: 5px;
+}

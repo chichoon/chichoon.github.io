@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat-Slugcat</title>
+    <link rel="stylesheet" href="../css/styles.css" class="css" />
+    <style>
+      .nav__link .fa-user,
+      .nav__link .fa-comment,
+      .nav__link .fa-search {
+        opacity: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>90%</span>
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alternative-header">
+      <div class="alt-header__column">
+        <i class="fas fa-angle-left fa-2x" onClick="history.go(-1)"></i>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Slugcat</h1>
+      </div>
+      <div class="alt-header__column">
+        <i class="fas fa-ellipsis-v fa-lg"></i>
+      </div>
+    </header>
+
+    <main class="chatting-screen">
+      <div id="main-chat">
+        <div class="chat__timestamp">Friday, Mar 12 2021</div>
+        <div class="message-row message-row--own">
+          <div class="message-row__content">
+            <div class="message__info">
+              <span class="message__bubble">
+                ::rainworld::
+                <i class="fas fa-star bubble__star1"></i>
+                <i class="fas fa-star bubble__star2"></i>
+              </span>
+              <span class="message__time">22:18</span>
+            </div>
+          </div>
+        </div>
+        <div class="message-row">
+          <img src="../res/prof7.gif" />
+          <div class="message-row__content">
+            <div class="message__author">Slugcat</div>
+            <div class="message__info">
+              <span class="message__bubble">
+                <img src="../res/chat10.jpg" />
+                <i class="fas fa-star bubble__star"></i>
+              </span>
+              <span class="message__time">22:18</span>
+            </div>
+          </div>
+        </div>
+        <div class="message-row">
+          <img src="../res/prof7.gif" />
+          <div class="message-row__content">
+            <div class="message__author">Slugcat</div>
+            <div class="message__info">
+              <span class="message__bubble">
+                Rain World is now available on Nintendo Switch, Steam, and
+                Playstation 4!
+                <i class="fas fa-star bubble__star"></i>
+              </span>
+              <span class="message__time">21:19</span>
+            </div>
+          </div>
+        </div>
+        <div class="chat__timestamp">Saturday, Mar 13 2021</div>
+        <div class="message-row message-row--own">
+          <div class="message-row__content">
+            <div class="message__info">
+              <span class="message__bubble">
+                ::slugcat::
+                <i class="fas fa-star bubble__star1"></i>
+                <i class="fas fa-star bubble__star2"></i>
+              </span>
+              <span class="message__time">21:19</span>
+            </div>
+          </div>
+        </div>
+        <div class="message-row">
+          <img src="../res/prof7.gif" />
+          <div class="message-row__content">
+            <div class="message__author">Slugcat</div>
+            <div class="message__info">
+              <span class="message__bubble">
+                What Fates a Slugcat?
+                <i class="fas fa-star bubble__star"></i>
+              </span>
+              <span class="message__time">21:19</span>
+            </div>
+          </div>
+        </div>
+        <div class="chat__timestamp">Sunday, Mar 14 2021</div>
+        <div class="message-row message-row--own">
+          <div class="message-row__content">
+            <div class="message__info">
+              <span class="message__bubble">
+                ::slugcat::
+                <i class="fas fa-star bubble__star1"></i>
+                <i class="fas fa-star bubble__star2"></i>
+              </span>
+              <span class="message__time">11:50</span>
+            </div>
+          </div>
+        </div>
+        <div class="message-row">
+          <img src="../res/prof7.gif" />
+          <div class="message-row__content">
+            <div class="message__author">Slugcat</div>
+            <div class="message__info">
+              <span class="message__bubble">
+                What Fates a Slugcat?
+                <i class="fas fa-star bubble__star"></i>
+              </span>
+              <span class="message__time">11:50</span>
+            </div>
+          </div>
+        </div>
+        <div class="chat__timestamp">Monday, Mar 15 2021</div>
+        <div class="message-row message-row--own">
+          <div class="message-row__content">
+            <div class="message__info">
+              <span class="message__bubble">
+                ::slugcat::
+                <i class="fas fa-star bubble__star1"></i>
+                <i class="fas fa-star bubble__star2"></i>
+              </span>
+              <span class="message__time">12:14</span>
+            </div>
+          </div>
+        </div>
+        <div class="message-row">
+          <img src="../res/prof7.gif" />
+          <div class="message-row__content">
+            <div class="message__author">Slugcat</div>
+            <div class="message__info">
+              <span class="message__bubble">
+                What Fates a Slugcat?
+                <i class="fas fa-star bubble__star"></i>
+              </span>
+              <span class="message__time">12:14</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="far fa-smile-wink"></i>
+        <button><i class="fas fa-arrow-up"></i></button>
+      </div>
+    </form>
+
+    <div id="no-mobile">
+      <div class="main-icon">
+        <i class="fas fa-star fa-3x icon__star1"></i>
+        <div class="icon__line1"></div>
+        <i class="far fa-star fa-2x icon__star2"></i>
+        <div class="icon__line2"></div>
+        <i class="far fa-star fa-lg icon__star3"></i>
+        <span class="icon__text">StarlighTalk</span>
+      </div>
+      <span>Your screen seems too big 🤔</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

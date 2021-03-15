@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" class="css" />
+    <title>Friends screen</title>
+    <style>
+      .nav__link .fa-comment,
+      .nav__link .fa-search,
+      .nav__link .fa-ellipsis-h {
+        opacity: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>90%</span>
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Friends</h1>
+      <div class="screen-header__icons">
+        <a href="https://www.google.com/" target="_blank">
+          <span><i class="fas fa-search fa-lg"></i></span>
+        </a>
+        <a href="https://music.youtube.com/" target="_blank">
+          <span><i class="fas fa-music fa-lg"></i></span>
+        </a>
+        <a href="settings.html">
+          <span><i class="fas fa-cog fa-lg"></i></span>
+          <span class="badge badge__top"></span>
+        </a>
+      </div>
+    </header>
+
+    <a id="friends-display-link">
+      <i class="fas fa-info-circle"></i>
+      Friends' Names Display
+      <i class="fas fa-chevron-right fa-xs"></i>
+    </a>
+
+    <main class="friends-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            class="user-component__avatar user-component__avatar--xl"
+            src="res/prof1.png"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__name">Chichoon</h4>
+            <h5 class="user-component__subtitle">haha</h5>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <div class="user-component__music">
+            <h5 class="user-component__music-title">Whatever - Oasis</h5>
+            <i class="fas fa-play fa-xs"></i>
+          </div>
+        </div>
+      </div>
+      <div class="friends-screen__channel">
+        <div class="friends-screen__channel-header">
+          <span>Channel</span>
+          <i class="fas fa-chevron-up fa-xs"></i>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              class="user-component__avatar user-component__avatar--sm"
+              src="res/channel.png"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__name user-component__name--not-bold">
+                Channel
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div>
+              <span>2</span>
+              <i class="fas fa-chevron-right fa-xs"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="friends-screen__channel">
+        <div class="friends-screen__channel-header">
+          <span>Friends</span>
+          <i class="fas fa-chevron-up fa-xs"></i>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img class="user-component__avatar" src="res/prof9.png" />
+            <div class="user-component__text">
+              <h4 class="user-component__name">Calmdown-Man</h4>
+              <h5 class="user-component__subtitle"></h5>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div class="user-component__music">
+              <h5 class="user-component__music-title">LA arirang</h5>
+              <i class="fas fa-play fa-xs"></i>
+            </div>
+          </div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img class="user-component__avatar" src="res/prof11.png" />
+            <div class="user-component__text">
+              <h4 class="user-component__name">Chick</h4>
+              <h5 class="user-component__subtitle"></h5>
+            </div>
+          </div>
+          <div class="user-component__column"></div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img class="user-component__avatar" src="res/prof10.png" />
+            <div class="user-component__text">
+              <h4 class="user-component__name">Cheese</h4>
+              <h5 class="user-component__subtitle">Pet me</h5>
+            </div>
+          </div>
+          <div class="user-component__column"></div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img class="user-component__avatar" src="res/prof2.png" />
+            <div class="user-component__text">
+              <h4 class="user-component__name">Chico</h4>
+              <h5 class="user-component__subtitle">sleepy</h5>
+            </div>
+          </div>
+          <div class="user-component__column"></div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img class="user-component__avatar" src="res/prof6.png" />
+            <div class="user-component__text">
+              <h4 class="user-component__name">HL</h4>
+              <h5 class="user-component__subtitle"></h5>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div class="user-component__music">
+              <h5 class="user-component__music-title">Hangover - Taio Cruz</h5>
+              <i class="fas fa-play fa-xs"></i>
+            </div>
+          </div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img class="user-component__avatar" src="res/prof8.gif" />
+            <div class="user-component__text">
+              <h4 class="user-component__name">Mona</h4>
+              <h5 class="user-component__subtitle">Contribute on GitHub!</h5>
+            </div>
+          </div>
+          <div class="user-component__column"></div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img class="user-component__avatar" src="res/prof3.png" />
+            <div class="user-component__text">
+              <h4 class="user-component__name">Samsaek</h4>
+              <h5 class="user-component__subtitle">meow</h5>
+            </div>
+          </div>
+          <div class="user-component__column"></div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img class="user-component__avatar" src="res/prof7.gif" />
+            <div class="user-component__text">
+              <h4 class="user-component__name">Slugcat</h4>
+              <h5 class="user-component__subtitle">Rain World</h5>
+            </div>
+          </div>
+          <div class="user-component__column"></div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img class="user-component__avatar" src="res/prof5.png" />
+            <div class="user-component__text">
+              <h4 class="user-component__name">TarkovMan</h4>
+              <h5 class="user-component__subtitle">
+                Now Playing Escape from Tarkov
+              </h5>
+            </div>
+          </div>
+          <div class="user-component__column"></div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img class="user-component__avatar" src="res/prof4.png" />
+            <div class="user-component__text">
+              <h4 class="user-component__name">Yattong</h4>
+              <h5 class="user-component__subtitle">yatt</h5>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div class="user-component__music">
+              <h5 class="user-component__music-title">
+                Yat Tong Rock - Yattong
+              </h5>
+              <i class="fas fa-play fa-xs"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends-no-intro.html"
+            ><i class="fas fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notif badge">30</span>
+            <i class="far fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <span class="nav__notif badge"></span>
+            <i class="fas fa-ellipsis-h fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="no-mobile">
+      <div class="main-icon">
+        <i class="fas fa-star fa-3x icon__star1"></i>
+        <div class="icon__line1"></div>
+        <i class="far fa-star fa-2x icon__star2"></i>
+        <div class="icon__line2"></div>
+        <i class="far fa-star fa-lg icon__star3"></i>
+        <span class="icon__text">StarlighTalk</span>
+      </div>
+      <span>Your screen seems too big 🤔</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--FontAwesome 설치 코드-->
+  </body>
+</html>
