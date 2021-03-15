@@ -7,10 +7,14 @@
 }
 
 .alt-header__title {
-  filter: drop-shadow(0 0 0.3rem rgba(255, 255, 255, 0.6));
+  filter: drop-shadow(0 0 0.3rem rgba(255, 255, 255, 0.4));
   font-size: 30px;
   font-weight: 700;
   text-align: center;
+}
+
+.alt-header__column i {
+  filter: drop-shadow(0 0 0.3rem rgba(255, 255, 255, 0.4));
 }
 
 .alt-header__column {
